@@ -58,7 +58,7 @@ $.extend(LoginModal.prototype,{
     //登录的用户名与密码
    const data=$(".form-login").serialize();
    //请求api接口，实现用户名与密码验证
-   const url="http://rap2api.taobao.org/app/mock/94667/api/users/login/";
+   const url="/api/users/login/";
    $.post(url,data,(data)=>{
      if(data.res_body.status===1){//登录成功
        //保存登录成功的用户名

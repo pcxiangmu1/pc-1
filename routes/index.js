@@ -1,8 +1,3 @@
-var express = require('express');
-var router = express.Router();
-
-//svg验证码模块
-var svgCaptcha = require('svg-captcha');
 
 var express=require("express");
 var router=express.Router();

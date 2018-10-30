@@ -33,7 +33,7 @@
 
 API --CRUD
 用户注册：
-     URL:"/api/register"
+     URL:"/api/users/register"
      Method:"POST"
      Param:
         username
@@ -109,3 +109,12 @@ Return:JSON
              valid:true
         }
      }
+
+
+
+
+     ##mongoose
+     
+     [mongoose](https://mongoosejs.com/)
+
+     处理MongoDB数据库访问

@@ -22,7 +22,7 @@ const Captcha={
     },
 
 	//校验验证码
-	verifyCaptchafunction(req,res,next){
+	verifyCaptcha(req,res,next){
 			//获得请求中传递到服务器的验证码字符串
 			const {code}=req.query;
 			//比较验证码输入是否正确;与生成时在session中保存的验证码文本字符串比较
